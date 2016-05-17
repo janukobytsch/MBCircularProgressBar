@@ -21,7 +21,8 @@ a circular animatable & Interface Builder highly customizable progress bar
   s.source           = { :git => "https://github.com/matibot/MBCircularProgressBar.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/@b0tnik'
 
-  s.platform     = :ios, '8.0'
+  s.ios.deployment_target = "8.0"
+  s.tvos.deployment_target = "9.0"
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
